@@ -5,10 +5,10 @@
 }
 
 .products-container {
-    margin: 50px;
+    margin: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 1rem;
 }
 .proceed-link{
     text-decoration: none;
@@ -24,4 +24,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.pagination{
+    font-weight: bold;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pagination select {
+    width: 100px;
+    height: 35px;
+    margin-left: 25px;
+}
+.pagination .selected {
+    background-color: rgb(141, 92, 2);
 }
